@@ -1,0 +1,712 @@
+/*
+===================
+===Prerequisites===
+===================
+*/
+
+
+
+/* Scroll Behaviour */
+html{
+	scroll-behavior: smooth;
+}
+.active a{
+	border-bottom: solid 1px white;
+	font-size: 1.2rem;
+
+	color:#FF0000 !important;
+}
+/* body by default */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f1f5ff;
+	position: relative;
+	font-family: 'Arial', sans-serif;
+	min-height: 100vh;
+}
+
+body > a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all;+ /* Internet Explorer */
+}
+a:hover{
+	text-decoration: none;
+}
+
+input[type = "button"], input[type = "submit"]{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all; /* Internet Explorer */
+}
+/* All heading Tags assigned margin 0 */
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 50%;
+	height: auto;
+}
+.validation{
+	color: darkblue;
+	padding: 4px;
+	background-color: #ccd;
+	width: 200px;
+	margin: 5px 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.card-body > ul{
+	padding-left: 2rem;
+}
+
+.card-body{
+	line-height: 1.7rem;
+	font-size: 1.2rem;
+}
+/*
+========================
+===Prerequisites Ends===
+========================
+*/
+
+/* ============================================================================ */
+
+/*
+===================
+===NAVBAR SECTION===
+===================
+*/
+
+#main{
+	padding-bottom: 80px;
+}
+
+.blog{
+	background-color: #f1f5ff;
+	min-height:100%;
+  position:relative;
+}
+
+.navbar{
+    background-color: #292929 !important;
+}
+.navbar .navbar-brand{
+    color : #FFF;
+    font-size: 30px;
+    font-family: 'Saira Stencil One', cursive;
+}
+.navbar .navbar-brand i{
+	color : #FFF;
+    font-size: 30px;
+}
+
+.navbar .nav-item a{
+    color: #FFF !important;
+    margin: 0 20px;
+}
+
+.navbar form button{
+    background-color: #fff;
+    color:#FFF;
+    border:0;
+}
+.navbar form button:hover{
+    background-color: #fff;
+    color: #f43485;
+}
+
+.navbar-toggler{
+	background-color: #fff;
+	color: #fff !important;
+}
+.navbar a:hover {
+	 color: #fff !important;
+}
+
+
+
+/*
+=========================
+===NAVBAR SECTION ENDS===
+=========================
+*/
+/*
+=========================
+=======BLOG SECTION======
+=========================
+*/
+.title{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #292929;
+	padding: 10px;
+}
+.text-blog{
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lead-para{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lead-para a{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lead-para a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+/* Blog Left bottom Panel */
+
+/* Blog Left bottom Panel ENDS */
+.blog_post{
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius: 5px;
+
+}
+.blog-img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 5px 5px 0px 0px;
+
+}
+.card-title{
+	font-size: 39px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.blogPara{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1.2rem !important;
+	color: #292929 !important;
+}
+.extraText span{
+	margin-right: 20px;
+	font-size: 14px;
+}
+.readMore{
+	background-color: #292929;
+	color: #fff;
+	margin: 10px 0;
+	line-height:24px;
+}
+.readMore:hover{
+	background-color: #fff;
+	color: #292929;
+}
+.pagenation{
+	margin: 30px 0;
+}
+.page-link{
+	color: #5e1ddd;font-weight: bold;
+}
+footer{
+	width: 100%;
+	background-color: #292929;
+	height: 80px;
+	padding: 20px;
+	padding:20px 0px 0px 0px;
+  position: absolute;
+	bottom: 0;
+}
+footer > p{
+	text-align: center;
+	margin: 5px;
+	color: #fff;
+}
+footer > p > a > i{
+	margin: 0 20px;
+	color: #fff;
+}
+
+
+.panel{
+
+}
+.panel-heading{
+	font-size: 16px;
+	background-color: #292929;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.panel-body{
+	padding: 10px;
+	font-size: 1.2rem;
+	background-color: #E7E5FF;
+	border-radius: 0 0 5px 5px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.panel-body i{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 100px;
+}
+.recent{
+	list-style: none;
+	padding-top: 10px;
+	border-bottom: solid 1px #f1f5ff;
+}
+.recent-items a{
+	text-decoration: none;
+	color: #000;
+}
+.recent-items a:hover{
+
+	color: #FF0000;
+}
+
+/*
+Single Blog Post
+ */
+.comment-section{
+	margin-top: 30px;
+}
+.legend{
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+
+.submit{
+	background-color: #5E1DDD;
+	margin: 0 6px;
+}
+.submit:hover{
+	background-color: #fff;
+	color: #5e1ddd;
+	font-weight: bold;
+	font-size: 17px;
+}
+.comments{
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.comment-1{
+	color: #000;
+	padding: 5px;
+	margin: 5px 8px 0 0;
+	border: 1px solid black;
+}
+.comments-heading{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	font-family: 'Acme', sans-serif;
+}
+.comments-mail{
+	font-size: 12px;
+	margin-bottom: 4px;
+
+}
+.user{
+	padding: 20px;
+}
+.user i{
+	color: #fff;
+	font-size: 40px;
+}
+.com{
+	color: #FF0000;
+	font-size: 1rem;
+}
+ /*
+ Single Blog Post ENDS */
+/*
+=========================
+===BLOG SECTION ENDS=====
+=========================
+
+*/
+
+/*
+=========================
+===ABOUT US SECTION======
+=========================
+*/
+
+.team{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.teamTitle{
+	font-size: 20px;
+	text-align: center;
+}
+.team-img{
+	width: 100%;
+}
+
+
+.aboutContent{
+	padding: 15px;
+	background-color: #CDC5F7;
+}
+.aboutContent p{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: justify;
+	font-family: 'Arial', sans-serif;
+}
+
+.social{
+	text-align: center;
+}
+.social i{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 7px;
+}
+.social i:hover{
+	transform: scale(1.4);
+	transition: 0.3s all;
+}
+.linkedin{
+	color: #0077B5;
+}
+.facebook{
+	color: #3b5998;
+}
+.github{
+	color: #4078c0;
+}
+/*
+=============================
+===ABOUT US SECTION ENDS=====
+=============================
+*/
+
+
+/*
+==========================
+===CONTACT US SECTION=====
+==========================
+*/
+
+.contact-section{
+	padding: 10px;
+}
+.contactHeading{
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+.contact-section input[type="text"]{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.contact-section input[type="email"]{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.contact-section textarea{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+
+
+
+.address{
+	margin: 0 auto;
+}
+.cont-panel{
+	padding: 5px;
+	text-decoration: none;
+}
+.cont-panel h6{
+	font-weight: bold;
+	font-size: 19px;
+}
+.cont-panel p{
+	color: #222;
+	margin: 4px 0;
+}
+.cont-panel p a{
+	color: #222;
+}
+.cont-panel p a:hover{
+	text-decoration: underline;
+}
+.maps{
+	width: 100%;
+	height: 200px;
+}
+/*
+===============================
+===CONTACT US SECTION ENDS=====
+===============================
+*/
+
+
+
+/*
+==========================
+===LOGIN SECTION=====
+==========================
+*/
+
+
+.login-title{
+	text-align: center;
+	color: #111;
+	font-weight: bold;
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 60px;
+}
+.formcard{
+	border: none;
+	background-color: #292929;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.login-heading{
+	color: #fff;
+	font-family: 'Acme', sans-serif;
+	font-size: 25px;
+}
+.login{
+	color: #5E1DDD;
+	background-color: #fff;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+.login:hover{
+	transform: scale(1.1);
+	color: #5E1DDD;
+	background-color: #fff;
+}
+
+/*
+===============================
+===LOGIN SECTION ENDS=====
+===============================
+*/
+
+
+/*
+==========================
+===ADMIN SECTION=====
+==========================
+*/
+
+.sidebar ul{
+	display: block;
+
+	width: 100%;
+	background-color: #111;
+	height: 100%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.3), 0 6px 6px rgba(0,0,0,0.4);
+}
+.sidebar-heading{
+	text-align: center;
+	color: #111;
+	font-weight: bold;
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 40px;
+	padding: 10px;
+}
+.links-sidebar{
+	color: #fff;
+}
+
+.post-heading{
+	color: #111;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+.content{
+	padding: 10px;
+}
+.content form .form-group{
+	width: 100%;
+}
+td{
+	text-align: justify;
+	max-width: 150px;
+	word-wrap: break-word !important;
+
+}
+
+
+
+#side-menu {
+  height: 100%; /* 100% Full-height */
+  width: 0px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #292929; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+#postfile{
+	background-color: #f1f5ff;
+	border: none;
+}
+
+
+/*
+===============================
+===ADMIN SECTION ENDS=====
+===============================
+*/
+
+
+.nav-item{
+	text-align: center;
+
+}
+
+#navbarSupportedContent li > a:hover{
+	 border-bottom: white 1px solid;
+}
+
+#navbarSupportedContent li > a {
+	height:100%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+	border-bottom: #292929 1px solid;
+}
+pre {
+    white-space: pre-wrap;
+}
+
+code{
+	padding: 5px;
+	color: #fff;
+	background-color: #000 !important;
+	line-height: 2.5rem;
+}
+
+.table td{
+	vertical-align: middle !important;
+}
+
+tr td{
+    white-space:nowrap;
+    text-align:left;
+		overflow: hidden;
+}
+
+
+#dtHorizontalExample th, td {
+vertical-align: middle;
+}
+
+.overflowTable{
+	overflow-x:auto;
+
+}
+
+.mbb{
+	margin-bottom: 120px;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+	color: #fff;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #292929;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+/* card */
+.card{
+	border-radius: 5px !important;
+}
+
+.card-white  .card-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+   border: 1px solid #dddddd;
+}
+.card-white  .card-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+.card-white .h5 {
+    font-size:20px;
+    //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.card-white .time {
+    font-size:12px;
+    //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.post .post-heading {
+  height: 60px;
+  padding: 20px 15px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+
+.post-description{
+	padding: 15px;
+}
+
+#mainText p {
+	margin-bottom: 1rem;
+}
+
+#mainText ul {
+	padding-left: 1.25rem !important;
+	margin-bottom: 1.25rem !important;
+}
+
+.pagination .page-item.active .page-link {
+	background-color: #E7E5FF !important;
+}
